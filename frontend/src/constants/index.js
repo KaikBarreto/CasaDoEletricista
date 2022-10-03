@@ -3,19 +3,19 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Página Inicial",
   },
   {
     id: "features",
-    title: "Features",
+    title: "Sobre",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Produtos",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "contato",
+    title: "Contato",
   },
 ];
 
@@ -47,25 +47,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "A Casa do Eletricista, com certeza, é o comércio mais completo da Zona Oeste, além do ótimo atendimento.",
+    name: "Luian Barreto",
+    title: "Cliente",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Aqui, além de ser tratado com o respeito e cordialidade que merece, você adquire produtos de qualidade e com garantia de qualidade e satisfação.",
+    name: "Leonardo José",
+    title: "Proprietário",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "Poucos negócios possuem todo o profissionalismo encontrado na Casa do Eletricista!",
+    name: "Kaik Chaides",
+    title: "Cliente",
     img: people03,
   },
 ];

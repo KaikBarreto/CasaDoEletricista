@@ -1,5 +1,6 @@
 import styles from "../style"
-import { discount, robot } from "../assets/assets"
+import { discount } from "../assets/assets/"
+import { robot2 } from "../assets/assets/"
 import GetStarted from "./GetStarted"
 
 const Hero = () => {
@@ -14,15 +15,15 @@ const Hero = () => {
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">20%</span> Discount for{" "}
-            <span className="text-white">1 month</span> Account
+            Até
+            <span className="text-white"> 20% de desconto</span> em toda a loja
           </p>
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
-            The Next <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Generation</span>
+            A <br className="sm:block hidden" />{" "}
+            <span className="text-gradient">melhor</span>
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
@@ -30,13 +31,12 @@ const Hero = () => {
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">
-          Payment Method.
+          loja de artigos elétricos.
         </h1>
 
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of experts uses a methodology to identify the credit cards
-          most likely to fit your needs. We examine annual percentage rates,
-          annual fees.
+          Nossa equipe trabalha com afinco visando levar o melhor atendimento e
+          experiência possíveis ao cliente
         </p>
       </div>
 
@@ -44,9 +44,10 @@ const Hero = () => {
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <img
-          src={robot}
+          src={robot2}
           alt="billing"
-          className="w-[100%] h-[100%] relative z-[5]"
+          className="min-w-[144%] min-h-[80%]
+          sm:max-h-[70%] relative z-[5]"
         />
 
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />

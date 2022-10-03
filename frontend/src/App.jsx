@@ -40,6 +40,13 @@ function App() {
           <Footer />
         </div>
       </div>
+      <a
+        class="whatsapp-link"
+        href="https://web.whatsapp.com/send?phone=5521970117921?"
+        target="_blank"
+      >
+        <i class="fa fa-whatsapp"></i>
+      </a>
     </div>
   )
 }
