@@ -110,6 +110,11 @@
   filter: blur(123px);
 }
 
+.blue__gradient__noblur {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
 #navLink0,
 #navLink1,
 #navLink2,
@@ -139,7 +144,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  
 }
 
 .pink__gradient {
@@ -150,4 +154,27 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+#testimonials {
+  flex-wrap: wrap !important;
+}
+
+@media (max-width: 768px) {
+  #testimonials {
+    flex-direction: column;
+  }
+  #testimonials .feedback-card {
+    min-width: 100%;
+  }
+
+  #testimonials .feedback-card:not(:nth-child(1)) {
+    margin-top: 50px;
+  }
+  #footer {
+    text-align: center;
+  }
+  #footer img {
+    margin: 0 auto;
+  }
 }

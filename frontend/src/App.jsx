@@ -5,8 +5,7 @@ import {
   Hero,
   Stats,
   Business,
-  Billing,
-  CardDeal,
+  Produtos,
   Testimonials,
   Clients,
   CTA,
@@ -32,8 +31,7 @@ function App() {
         <div className={`${styles.boxWidth}`}>
           <Stats />
           <Business />
-          <Billing />
-          <CardDeal />
+          <Produtos />
           <Testimonials />
           <Clients />
           <CTA />
@@ -41,11 +39,11 @@ function App() {
         </div>
       </div>
       <a
-        class="whatsapp-link"
+        className="whatsapp-link"
         href="https://web.whatsapp.com/send?phone=5521970117921?"
         target="_blank"
       >
-        <i class="fa fa-whatsapp"></i>
+        <i className="fa fa-whatsapp"></i>
       </a>
     </div>
   )

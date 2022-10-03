@@ -46,8 +46,8 @@ const Hero = () => {
         <img
           src={robot2}
           alt="billing"
-          className="min-w-[144%] min-h-[80%]
-          sm:max-h-[70%] relative z-[5]"
+          className="min-w-[144%] min-h-[70%]
+          sm:translate-y-5 md:translate-y-0 relative z-[5]"
         />
 
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />

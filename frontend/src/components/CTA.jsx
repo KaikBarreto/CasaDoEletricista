@@ -6,7 +6,9 @@ const CTA = () => (
     className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
   >
     <div className="flex-1 flex flex-col" id="contato">
-      <h2 className={styles.heading2}>Nos envie uma mensagem!</h2>
+      <h2 className={`${styles.heading2} text-[24px]`}>
+        Nos envie uma mensagem!
+      </h2>
       <p className={`${styles.paragraph} max-w-[470px mt-5]`}>
         Estamos prontos para atendê-lo da forma mais profissional possível.
       </p>

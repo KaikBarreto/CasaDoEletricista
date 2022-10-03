@@ -14,8 +14,12 @@ const FeatureCard = ({ icon, title, content, index }) => (
       <img src={icon} alt="icon" className="w-[50%] h-[50%] object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3">
-      <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1">{title}</h4>
-      <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px] mb-1">{content}</p>
+      <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1">
+        {title}
+      </h4>
+      <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px] mb-1">
+        {content}
+      </p>
     </div>
   </div>
 )
@@ -25,13 +29,12 @@ const Business = () => {
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          You do the business, <br className="sm:block hidden" /> we'll handle
-          the money
+          Você faz a obra, <br className="sm:block hidden" /> nós cuidamos do
+          material!
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          With the right credit card, you can improve your financial life by
-          building credit, earning rewards and saving money. But with hundreds
-          of credit cards on the market.
+          A Casa do Eletricista tem a maior seleção e a mais alta qualidade de
+          aparelhos elétricos com os melhores preços.
         </p>
 
         <Button styles="mt-10 rounded-full" />
